@@ -1,0 +1,125 @@
+
+body.bg-image{
+  background-image: url('../image/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-width: 100%;
+  min-height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+}
+
+.parent-row{
+  margin-left: 0;
+  margin-right: 0;
+}
+.parent-row>.col-md-2{
+  background-color: rgba(19, 16, 43, 0.77);
+  height: 100vh;
+  box-shadow: 0 5px 5px rgba(0,0,0,.75) !important;
+  overflow: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.parent-row>.col-md-10{
+  background-color: rgba(14, 19, 41, 0.89);
+  height: 100vh;
+  overflow: auto;
+}
+
+.col-md-10>.container{
+  margin-top: 80px;
+  padding-left: 70px;
+padding-right: 60px;
+}
+.col-md-10>.container>h2{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  margin-top: 50px;
+}
+.col-md-10>.container>h2>b{
+  font-weight: 400;
+}
+.col-md-10>.container>h2>span{
+  color: rgba(223, 53, 141, 1);
+}
+.free{
+  color: rgba(223, 53, 141, 1);
+}
+.col-md-10>.container>p{
+  padding-top: 30px;
+  width: 50%;
+  font-size: 21px;
+  color: #939299;
+}
+.col-md-10>.container>h3>span{
+  padding-bottom: 5px;
+  border-bottom: solid 2px rgba(223, 53, 141, 1);
+}
+.col-md-10>.container>.row>.col-md-10>h3>span{
+  padding-bottom: 5px;
+  border-bottom: solid 2px rgba(223, 53, 141, 1);
+}
+
+.img-circle.dp{
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  height: 20%;
+}
+
+.side-nav{
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.side-nav>.list-group-item{
+  background-color: transparent;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 45px;
+  border: none;
+  border-left: solid 6px rgba(19, 16, 43, 0.01);
+  border-radius: 0;
+}
+.side-nav>.list-group-item>a{
+  color:#fff;
+  text-decoration: none;
+}
+.side-nav>.list-group-item.active{
+  border: none;
+  border-left: solid 6px rgba(223, 53, 141, 1);
+}
+.side-nav>.list-group-item.active>a{
+  color:rgba(223, 53, 141, 1);
+}
+.side-nav>.list-group-item:hover{
+  background-color: #221436;
+}
+.btn.hire{
+  background-color: #df358d;
+color: white;
+border-radius: 0;
+padding-left: 23px;
+padding-right: 23px;
+}
+.artw{
+  margin-top: 40px;
+}
+
+.artw>.col-md-4>p{
+  margin-top: 20px;
+  font-size: 19px;
+}
+.artw>.col-md-4{
+  margin-bottom: 50px;
+}
+
+.imgart>img{
+  width: 100%!important;
+  height: 170px;
+  object-fit: cover;
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.51) !important;
+}
