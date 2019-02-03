@@ -1,14 +1,14 @@
 
 body.bg-image{
-  background-image: url('bg.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-image: url('bg.png')  no-repeat center center fixed;
   min-width: 100%;
   min-height: 100vh;
   font-family: 'Quicksand', sans-serif;
   color: #fff;
   background-size: cover;
+  -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
 }
 
 .parent-row{
