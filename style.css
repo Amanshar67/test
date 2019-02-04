@@ -144,5 +144,8 @@ padding-right: 23px;
    .parent-row>.col-md-2{
       height: inherit;
    }
+   .img-circle.dp{
+      height: 100px;
+   }
    
 }
