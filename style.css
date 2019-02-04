@@ -140,7 +140,7 @@ padding-right: 23px;
    .img-circle.dp{
       margin-top:30px;
    }
-   .parent-row>.col-lg-2{
+   .parent-row>.col-md-12{
       height: inherit;
    }
    .img-circle.dp{
