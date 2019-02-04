@@ -177,3 +177,8 @@ padding-right: 23px;
     background-color: transparent;
   }
 }
+@media screen and (max-width: 523px){
+.side-nav{
+    margin-left:0px;
+  }
+}
