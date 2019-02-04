@@ -131,11 +131,11 @@ padding-right: 23px;
 @media screen and (max-width: 768px){
    .side-nav{
       flex-direction: row;
+      height: inherit;
    }
    .side-nav>li{
       padding-left: 20px;
       width: 33.33%;
-      height: inherit;
       border:none;
    }
    .img-circle.dp{
