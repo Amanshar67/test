@@ -20,11 +20,12 @@ body.bg-image{
   padding-left: 0;
   padding-right: 0;
 }
+.parent-row{
+  margin-left: 0;
+  margin-right: 0;
+}
 @media screen and (min-width: 993px){
-  .parent-row{
-    margin-left: 0;
-    margin-right: 0;
-  }
+
   .parent-row>.col-lg-2.snav{
     height: 100vh;
     overflow: auto;
@@ -40,6 +41,11 @@ body.bg-image{
   .col-lg-10>.container>p{
     width: 50%;
   }
+  .col-lg-10>.container{
+    margin-top: 80px;
+    padding-left: 70px;
+  padding-right: 60px;
+  }
 }
 .parent-row>.col-lg-10{
   background-color: rgba(14, 19, 41, 0.79);
@@ -47,11 +53,7 @@ body.bg-image{
   overflow: auto;
 }
 
-.col-lg-10>.container{
-  margin-top: 80px;
-  padding-left: 70px;
-padding-right: 60px;
-}
+
 .col-lg-10>.container>h2{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 50px;
@@ -141,6 +143,11 @@ padding-right: 23px;
 }
 
 @media screen and (max-width: 992px){
+  .col-md-12>.container{
+    margin-top: 40px;
+    padding-left: 20px;
+  padding-right: 10px;
+  }
    .side-nav{
       flex-direction: row;
    }
