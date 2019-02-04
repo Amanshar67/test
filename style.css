@@ -135,5 +135,11 @@ padding-right: 23px;
    .side-nav>li{
       padding-left: 20px;
       width: 33.33%;
+      height: inherit;
+      border:none;
    }
+   .img-circle.dp{
+      margin-top:30px;
+   }
+   
 }
