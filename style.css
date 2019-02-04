@@ -151,6 +151,7 @@ padding-right: 23px;
   }
    .side-nav{
       flex-direction: row;
+      margin-top:10px;
    }
    .side-nav>li{
       padding-left: 20px;
