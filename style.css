@@ -19,11 +19,13 @@ body.bg-image{
 }
 .parent-row>.col-lg-2{
   background-color: rgba(19, 16, 43, 0.57);
-  height: 100vh;
   box-shadow: 0 5px 5px rgba(0,0,0,.75) !important;
-  overflow: auto;
   padding-left: 0;
   padding-right: 0;
+}
+@media screen and (min-width: 787px){
+height: 100vh;
+overflow: auto;
 }
 .parent-row>.col-lg-10{
   background-color: rgba(14, 19, 41, 0.79);
