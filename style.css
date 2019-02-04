@@ -19,7 +19,7 @@ body.bg-image{
   margin-right: 0;
 }
 .parent-row>.col-md-2{
-  background-color: rgba(19, 16, 43, 0.77);
+  background-color: rgba(19, 16, 43, 0.57);
   height: 100vh;
   box-shadow: 0 5px 5px rgba(0,0,0,.75) !important;
   overflow: auto;
@@ -27,7 +27,7 @@ body.bg-image{
   padding-right: 0;
 }
 .parent-row>.col-md-10{
-  background-color: rgba(14, 19, 41, 0.89);
+  background-color: rgba(14, 19, 41, 0.79);
   height: 100vh;
   overflow: auto;
 }
