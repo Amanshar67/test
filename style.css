@@ -129,7 +129,7 @@ padding-right: 23px;
   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.51) !important;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 995px){
    .side-nav{
       flex-direction: row;
       
