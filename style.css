@@ -131,7 +131,7 @@ padding-right: 23px;
 @media screen and (max-width: 768px){
    .side-nav{
       flex-direction: row;
-      height: inherit;
+      
    }
    .side-nav>li{
       padding-left: 20px;
@@ -140,6 +140,9 @@ padding-right: 23px;
    }
    .img-circle.dp{
       margin-top:30px;
+   }
+   .parent-row>.col-md-2{
+      height: inherit;
    }
    
 }
